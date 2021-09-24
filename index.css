@@ -1,0 +1,188 @@
+.root{
+    background-color: #6b705c;
+
+}
+
+.parent1{
+    line-height: 1.6;
+    border: 12px solid rgb(236, 17, 17) ;
+    border-radius:12px;
+    height: 150px;
+    width: 300px;
+    background: white;
+    display: flex;
+    flex-direction: row;
+    margin-left: 400px;
+    font-style: italic;
+    padding:30px;
+    text-align:center;
+    font-size: 29px;
+    color:rgb(221, 20, 121);
+    text-shadow: 2px 2px 8px rgb(255, 0, 242);
+    padding-left: 90px;
+    font-style:italic;
+    box-shadow: 10px 10px rgb(158, 38, 98);
+    
+}
+
+.box{
+    /* display: inline-flex; */
+    /* flex-direction: row; */
+    margin-top: 30px; 
+    /* flex-wrap : wrap-wrap; */
+    align-content: center;
+    /* box-shadow: 10px 10px rgb(158, 38, 98); */
+    margin-bottom: 10px;
+    position: relative;
+    width: 1200px;
+    height:800px;
+    border:10px solid rgb(79, 141, 17);
+}
+
+.box1{
+    width: 300px;
+    height:300px;
+    border: 12px solid rgb(236, 17, 17);
+    background: white;
+    padding: 20px;
+    font-size: 32px;
+    text-align: center;
+    color: rgb(58, 8, 33);
+    margin-left: 10px;
+    border-radius: 15px;
+    text-shadow: 2px 2px 8px rgb(5, 5, 51);
+    line-height: 1.6;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    box-shadow: 10px 10px rgb(158, 38, 98);
+}
+
+.box2{
+    width: 300px;
+    height:250px;
+    margin-bottom: 550px;
+    /* margin-left: 400px; */
+    background-color: white;
+    border: 12px solid rgb(236, 17, 17);
+    padding: 20px;
+    border-radius: 12px;
+    /* background-image: url("https://cdn3.vectorstock.com/i/1000x1000/28/82/food-delivery-vector-6252882.jpg"); */
+    position: relative;
+    padding-left: 20px;
+    padding-top: 60px;
+    top: 10px;
+    right: -809px;
+    box-shadow: 10px 10px rgb(158, 38, 98);
+}
+
+.box3{
+    font-size: 30px;
+    width: 300px;
+    height:300px;
+    color: rgb(5, 5, 51);
+    text-shadow: 25px;
+    background-color: white;
+    border: 12px solid rgb(236, 17, 17);
+    padding: 20px;
+    border-radius: 12px;
+    text-shadow: 2px 2px 8px rgb(5, 5, 51);
+    position: absolute;
+    bottom:15px;
+    left: 15px;
+    box-shadow: 10px 10px rgb(158, 38, 98);
+}
+
+.box4{
+    flex-direction: column;
+    width: 350px;
+    height:340px;
+    text-align: center;
+    background-color: white;
+    border: 12px solid rgb(236, 17, 17);
+    margin-left: 400px;
+    border-radius: 12px;
+    text-shadow: 2px 2px 10px rgb(5, 5, 51);
+    position: absolute;
+    top: 420px;
+    right: 25px;
+    box-shadow: 10px 10px rgb(158, 38, 98);
+}
+
+.sticky{
+    color:rgb(236, 17, 17);
+    width: 425px;
+    height: 30px;
+    display: flex;
+    flex-direction:row;
+    position: sticky;
+    bottom:50px;
+    text-align:center;
+    margin-left:400px;
+    border: 10px solid rgb(221, 20, 20);
+    background-color: rgb(70, 238, 70);
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 12px;
+    padding-bottom: 75px;
+    font-style: italic;
+    box-shadow: 10px 10px rgb(158, 38, 98);
+}
+
+.submitlabel{
+    color:rgb(33, 16, 109);
+    text-shadow: 2px 2px 10px rgb(45, 18, 168);
+}
+.submit{
+    border-radius: 10px;
+    background-color: red;
+}
+
+.parent3{
+    width: 700px;
+    height: 750px;
+    border: 10px solid rgb(158, 38, 98);
+    margin-left: 300px;
+    margin-top: 25px;
+    background:rgb(79, 141, 17);
+    text-align:center;
+    padding-top: 15px;
+    position: relative;
+}
+
+.child1{
+    width: 344px;
+    height: 320px;
+    background:rgb(178, 204, 30);
+    position: absolute;
+    top: 1250px;
+    left: 320px;
+    text-align: center;
+    font-style:italic;
+    line-height:2.5;
+    border: 3px solid gray;
+}
+.child2{
+    width: 340px;
+    height: 320px;
+    background:rgb(178, 204, 30);
+    position: absolute;
+    top: 1250px;
+    right: 235px;
+    text-align: center; 
+    font-style:italic;
+    line-height:2.5;
+    border: 3px solid gray;
+}
+.child3{
+    width: 700px;
+    height: 320px;
+    background:rgb(178, 204, 30);
+    position: absolute;
+    bottom: -1328px;
+    right: 225px;
+    text-align: center;  
+    font-style:italic;
+    border: 3px solid gray;
+    line-height:2.5;
+}
